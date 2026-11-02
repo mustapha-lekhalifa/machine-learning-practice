@@ -21,3 +21,9 @@ print(df.info())
 
 
 print(df.isna().sum())
+
+print(df.duplicated().sum())
+
+print((df["workclass"]=="?").sum())
+
+print((df["occupation"]=="?").sum())
