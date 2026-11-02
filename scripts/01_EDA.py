@@ -15,3 +15,9 @@ print(df.columns)
 
 #verifier le repartition du variable income
 print(df["income"].value_counts())
+
+
+print(df.info())
+
+
+print(df.isna().sum())
